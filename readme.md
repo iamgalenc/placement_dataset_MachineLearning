@@ -8,6 +8,16 @@ The dataset used for this analysis is as follows:
 - `iq`: IQ score of the student.
 - `placement`: Binary variable indicating whether the student got placed (1) or not (0).
 
+##Dependencies
+- pandas
+  `pip install pandas`
+- scikit-learn
+  `pip install scikit-learn`
+- matplotlib
+  `pip install matplotlib`
+- seaborn
+  `pip install seaborn`
+
 ## Logistic Regression
 Logistic regression is a statistical method used for binary classification tasks. It models the probability that a given instance belongs to a particular class. In our case, logistic regression can be used to model the probability of a student getting placed based on their CGPA and IQ scores.
 
